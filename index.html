@@ -24,6 +24,13 @@
                         <div class="row">
                             <form id="course-form">
                                 <div class="input-field col s12">
+                                        <a href="https://google.com" target="_blank" id="google">Aller sur Google</a>
+                                        <p>
+                                            <label>
+                                            <input type="checkbox" id="cg"/>
+                                            <span>J'accepte les CG</span>
+                                        </label>
+                                        </p>
                                     <p>Ajouter une tâche :</p>
                                     <input type="text" name="tache" id="tache" value="Que veux-tu acheter ?">
                                 </div>
@@ -31,7 +38,7 @@
                         </div>
                         
                         <input type="submit" value="Ajouter à ma liste" class="btn" onclick="save()">
-                        <input type="submit" value="Effacer" class="btn">
+                        <input type="submit" value="Effacer" class="btn" onclick="remove()">
 
                     </div>
                 </div>
